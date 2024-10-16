@@ -14,9 +14,7 @@ const app = new Hono<{
 }>();
 
 app.use(
-  cors({
-    origin: "http://localhost:5173",
-  })
+  cors()
 );
 
 app.route("/api/v1/user", userRouter)
