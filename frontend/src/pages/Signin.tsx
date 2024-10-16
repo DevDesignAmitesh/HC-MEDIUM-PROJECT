@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Heading from "../component/Heading";
 import SubHeading from "../component/SubHeading";
 import InputBox from "../component/InputBox";

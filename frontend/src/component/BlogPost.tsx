@@ -1,4 +1,4 @@
-import React from "react";
+
 import { MdOutlineBookmarkAdd } from "react-icons/md";
 import { HiDotsHorizontal } from "react-icons/hi";
 import axios from "axios";

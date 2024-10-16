@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { HiDotsHorizontal } from "react-icons/hi";
 import { FaRegBell } from "react-icons/fa";
 import axios from "axios";

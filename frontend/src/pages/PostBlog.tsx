@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { HiDotsHorizontal } from "react-icons/hi";
-import { FaRegBell } from "react-icons/fa";
+import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Button from "../component/Button";
@@ -19,7 +17,7 @@ function PostBlog() {
       return;
     }
     try {
-      const res = await axios.post(
+      await axios.post(
         `${BACKEND_URL}/api/v1/blog/blog`,
         {
           title,

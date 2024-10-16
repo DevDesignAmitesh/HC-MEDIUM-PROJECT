@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import BlogPost from "../component/BlogPost";
 import Button from "../component/Button";
 import { useNavigate } from "react-router-dom";
